@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>History of Football</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+<h1>Ancient to Modern Football: A History</h1>
+<p class="intro">Explore the fascinating evolution of football from its origins to today's global phenomenon.</p>
+</header>
+<main>
+<section class="timeline" aria-label="Football History Timeline">
+<div class="event" tabindex="0" aria-label="Event: Ancient Games - SHAPE">
+<h2>Ancient Games</h2>
+<img src="images/ancient_games.jpg" alt="Ancient football-like games" />
+<article>
+<p>Archeological evidence of early ball games in ancient China, Egypt, and Greece date back thousands of years, highlighting the origins of football-like sports.</p>
+</article>
+</div>
+<div class="event" tabindex="0" aria-label="Event: Medieval Football - SHAPE">
+<h2>Medieval Football</h2>
+<img src="images/medieval_football.jpg" alt="Medieval ball game" />
+<article>
+<p>In medieval Europe, various local forms of mob football existed, often played openly in towns and villages with minimal rules.</p>
+</article>
+</div>
+<div class="event" tabindex="0" aria-label="Event: Formalization of Rules - SHAPE">
+<h2>19th Century & the Formal Rules</h2>
+<img src="images/legal_rules.jpg" alt="Organization of football" />
+<article>
+<p>The 19th century saw the standardization of rules with the establishment of clubs and governing bodies, leading to the modern rules of soccer.</p>
+</article>
+</div>
+<div class="event" tabindex="0" aria-label="Event: FIFA & Global Spread - SHAPE">
+<h2>Globalization & FIFA</h2>
+<img src="images/fifa_world_cup.jpg" alt="FIFA World Cup" />
+<article>
+<p>FIFA was founded in 1904, and the sport rapidly grew in popularity worldwide, culminating in the FIFA World Cup, the most watched sporting event.</p>
+</article>
+</div>
+</section>
+<section class="features">
+<h2>Features & Innovations</h2>
+<ul>
+<li>Introduction of professional leagues and tournaments</li>
+<li>Technological advancements like VAR and goal-line tech</li>
+<li>Evolution of player training, tactics, and football culture</li>
+</ul>
+</section>
+<section class="interactive">
+<h2>Share Your Favorite Moment</h2>
+<form id="momentForm" aria-label="Share your football moment">
+<label for="name">Your Name:</label>
+<input type="text" id="name" name="name" placeholder="Enter your name" required />
+<label for="moment">Your Favorite Moment:</label>
+<textarea id="moment" name="moment" rows="4" placeholder="Describe your favorite football moment" required></textarea>
+<button type="submit">Share</button>
+<div class="feedback" id="formFeedback" role="status" aria-live="polite"></div>
+</form>
+<div class="shared-moments" id="sharedMoments">
+<h3>Shared Moments</h3>
+<ul id="momentsList"></ul>
+</div>
+</section>
+</main>
+<footer>
+<p>&copy; 2023 History of Football. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
